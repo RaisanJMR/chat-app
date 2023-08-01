@@ -9,7 +9,7 @@ const User = ({ item }) => {
   const sendFriendRequest = async (currentUserId, selectedUserId) => {
     try {
       const response = await fetch(
-        'http://192.168.51.232:8000/friend-request',
+        'http://192.168.103.232:8000/friend-request',
         {
           method: 'POST',
           headers: {
